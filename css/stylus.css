@@ -1,0 +1,76 @@
+nav {
+  font-size: 14px;
+  font-family: 'Gotham Rounded';
+  font-weight: 500;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  margin-left: 73px;
+  margin-top: 64px;
+  max-width: 200px;
+}
+nav a {
+  justify-content: center;
+}
+nav a img {
+  width: 30px;
+  margin-left: 5px;
+}
+nav h4 {
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(255,255,255,0.8);
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+body body:before {
+  box-sizing: border-box;
+}
+body body:after {
+  box-sizing: border-box;
+}
+.container-logo {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  overflow-y: hidden;
+}
+.container-logo img {
+  width: 1059px;
+  height: 596px;
+}
+.container-trazado {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: hidden;
+  position: relative;
+}
+.container-trazado img {
+  width: 1994, 11px;
+  height: 1986, 2px;
+}
+.container-trazado .quienes-somos {
+  position: absolute;
+  text-align: center;
+  top: 600px;
+}
+.container-trazado h2 {
+  font-family: 'Gotham Rounded';
+  font-weight: bold;
+  font-size: 44px;
+  color: #fff;
+}
+.container-trazado p {
+  font-family: 'Gotham Rounded';
+  font-weight: 300;
+  font-size: 36px;
+  color: #fff;
+}
