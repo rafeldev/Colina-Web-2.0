@@ -50,7 +50,6 @@ body body:after {
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow-y: hidden;
   position: relative;
 }
 .container-trazado img {
