@@ -59,7 +59,7 @@ body body:after {
 .container-trazado .quienes-somos {
   position: absolute;
   text-align: center;
-  top: 600px;
+  top: 500px;
 }
 .container-trazado h2 {
   font-family: 'Gotham Rounded';
@@ -71,5 +71,105 @@ body body:after {
   font-family: 'Gotham Rounded';
   font-weight: 300;
   font-size: 36px;
+  color: #fff;
+}
+.audiovisual__tarjeta1 {
+  display: flex;
+  align-items: center;
+}
+.audiovisual__tarjeta1 figure {
+  display: block;
+  float: left;
+  margin-left: 50px;
+}
+.audivisual__tarjeta1-texto {
+  width: 25%;
+}
+footer {
+  background-image: url("../css/img/footer2.png");
+  background-repeat: no-repeat;
+  background-size: 100% 35%;
+  background-position: center bottom;
+  height: 630px;
+  margin-top: 600px;
+}
+.content-contact {
+  display: flex;
+  height: 450px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.contact-info,
+.section-form {
+  width: 50%;
+  margin: 5px;
+  display: flex;
+}
+.section-form {
+  justify-content: center;
+/* background: green; */
+  height: 480px;
+}
+.contact-info {
+  flex-direction: column;
+  align-items: center;
+}
+.info {
+  width: 70%;
+  height: 300px;
+  margin: 30px 0 150px 0;
+}
+.datos {
+  margin-top: 70px;
+}
+.form-content {
+  background: #aaa;
+  width: 70%;
+  border-radius: 5px;
+  margin-top: 20px;
+  box-shadow: -1px 1px 5px 2px rgba(0,0,0,0.3);
+}
+.form {
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+}
+h3 {
+  margin-bottom: 10px;
+}
+.form input,
+textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+}
+.form input {
+  height: 37px;
+}
+.form textarea {
+  height: 200px;
+}
+.btn {
+/* padding: 10px 20px; */
+  width: 80px;
+  height: 40px;
+  border-radius: 30px;
+  border: none;
+  background: #de0009;
+  color: #fff;
+  float: right;
+}
+.redes {
+  width: 70%;
+  height: 100px;
+  margin-top: 100px;
+  color: #fff;
+}
+.red {
+  float: left;
+  margin-right: 50px;
+}
+.red a {
   color: #fff;
 }
