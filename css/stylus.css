@@ -73,6 +73,9 @@ body body:after {
   font-size: 36px;
   color: #fff;
 }
+.Audiovisual {
+  max-width: 100%;
+}
 .audiovisual__tarjeta1 {
   display: flex;
   align-items: center;
@@ -85,13 +88,22 @@ body body:after {
 .audivisual__tarjeta1-texto {
   width: 25%;
 }
+#target2__float-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+#target2__float-right figure {
+  display: block;
+  float: left;
+}
 footer {
   background-image: url("../css/img/footer2.png");
   background-repeat: no-repeat;
   background-size: 100% 35%;
   background-position: center bottom;
   height: 630px;
-  margin-top: 600px;
+  margin-top: 150px;
 }
 .content-contact {
   display: flex;
